@@ -8,4 +8,4 @@ Feature: Getting first and last name to print the full name
     @Regression
     Examples: 
       | first     | last        | full                |
-      | "John" | "Anderson" | "John Anderson" |
+      | "Bob" | "Anderson" | "Bob Anderson" |
