@@ -4,6 +4,6 @@ Feature: Cucumber can convert Gherkin data tables to a list of a type you specif
     Given a list of numbers
       | 15 |
       | 25 |
-      | 60 |
+      | 70 |
     When I summarize them
-    Then should I get 100
+    Then should I get 110
