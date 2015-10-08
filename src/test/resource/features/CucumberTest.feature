@@ -1,6 +1,6 @@
-Feature: Getting first and last name to print the full name
+Feature: Printing full name of the user by getting first and last name as input
 
-  Scenario Outline: User enters firstname and lastname to get the full name
+  Scenario Outline: User enters firstname and lastname to print the full name
     Given User enters first and last name
     When user enters firstname <first> and lastname <last>
     Then system prints fullname <full>
@@ -8,4 +8,4 @@ Feature: Getting first and last name to print the full name
     @Regression
     Examples: 
       | first     | last        | full                |
-      | "Yuvaraj" | "Ilangovan" | "Yuvaraj Ilangovan" |
+      | "Agile" | "Trailblazers" | "Agile Trailblazers" |

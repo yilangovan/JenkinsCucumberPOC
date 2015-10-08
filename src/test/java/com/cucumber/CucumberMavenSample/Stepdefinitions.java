@@ -13,7 +13,7 @@ public class Stepdefinitions {
 
 	@When("^user enters firstname \"([^\"]*)\" and lastname \"([^\"]*)\"$")
 	public void user_enters_firstname_and_lastname(String arg1, String arg2) throws Throwable {
-	    System.out.println("First Name:" + arg1 + "Last Name: " + arg2);
+	    System.out.println("First Name:" + arg1 + " Last Name: " + arg2);
 	}
 
 	@Then("^system prints fullname \"([^\"]*)\"$")
